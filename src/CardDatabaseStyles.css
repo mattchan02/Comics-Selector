@@ -1,0 +1,45 @@
+.RenderCard {
+  border: 2px solid black;
+  margin: auto;
+  width: 60%;
+}
+
+.left-image {
+  border-right: 2px solid black;
+  width: 180px;
+  height: 350px;
+}
+
+.right-info {
+
+}
+
+.right-title {
+
+}
+
+.right.writer {
+
+}
+
+.right-artist-various:hover:after {
+  position: absolute;
+  content: attr(title);
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.right-length:hover:after {
+  position: absolute;
+  content: attr(title);
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
