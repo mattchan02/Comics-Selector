@@ -12,8 +12,9 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 1,
         synopsis: "Jason Aaron's epic tale of Thor and Jane Foster. This saga involves Thor's grand battle with Malekith throughout the Nine Realms, while reconciling his position and idea of what a god should be, and for whom. \r\n ",
-        run: "Modern"
+        run: "Modern",
     },
     {
         title: "Aquaman New 52",
@@ -25,6 +26,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 2,
         synopsis: "Building off the previous volumes by Geoff Johns and Jeff Parker, ",
         run: "Modern"
     },
@@ -38,6 +40,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 3,
         synopsis: "Abnett continues his New 52 Aquaman into the Rebirth initiative, continuing to follow Arthur Curry and Mera to bridge the divide between the nations of Earth and Atlantis. \r\n ",
         run: "Modern"
     },
@@ -51,6 +54,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 4,
         synopsis: "Blackagar Boltagon finds him imprisoned and alone, with no idea how he got into this position. \r\n ",
         run: "Modern"
     },
@@ -64,6 +68,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 5,
         synopsis: "Bendis' long running Daredevil run is a landmark series, showcasing Daredevil's fight to protect Hell's Kitchen while also battling the legal fight to protect his secret identity as Lawyer Matt Murdock",
         run: "Classic"
     },
@@ -77,6 +82,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 6,
         synopsis: "A significant different take on Doctor Doom, who wishes to turn away from his cold hearted past. He dons the Iron Man armor to do good, but endures doubt from friends and foes alike in the process \r\n ",
         run: "Modern"
     },
@@ -90,6 +96,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 7,
         synopsis: "",
         run: "Modern"
     },
@@ -103,6 +110,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 8,
         synopsis: "This series brings the perspective about the emergence of the Marvel Universe and its superheroes and villains through the eyes of a journalist. From their first appearance to numerous more, the book documents his aging perspective and feelings. \r\n ",
         run: "Classic"
     },
@@ -116,6 +124,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 9,
         synopsis: "A modern story of Eddie Brock and his symbiote. Writer Donny Cates expands the symbiote lore by explaining the history and connection of all symbiotes to their King Knull. \r\n ",
         run: "Ongoing"
     },
@@ -129,6 +138,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 10,
         synopsis: "A classical take on the history of the DC Universe, starting from World War II to the present. A more positive, uplifting retelling than other modern contemporaries of this scope. \r\n ",
         run: "Classic"
     },
@@ -142,6 +152,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 11,
         synopsis: "Part of Hickman's Dawn of X initiative, Kate Pryde leads a group of mutants to fight for mutants who cannot or are unable to travel to the mutant homeland of Krakoa. \r\n ",
         run: "Ongoing"
     },
@@ -155,6 +166,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 12,
         synopsis: "A modern retelling of the original Wild Storm Imprint characters. A warring planet Earth involving IO, those who hold dominance over the Earth, Skywatch, holding dominion over Space, and everyone in between who suffer by the hands of these two corporations. \r\n ",
         run: "Modern"
     },
@@ -168,6 +180,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 13,
         synopsis: "",
         run: "Classic"
     },
@@ -180,7 +193,8 @@ let Database = [
         issues: ["27 issues", "4 volumes"],
         start: "",
         genre: "",
-        company: ["DC Comics"],
+        company: "DC Comics",
+        imageID: 14,
         synopsis: "A fantastic story about self-proclaimed Archaeologists of History, who seek to know, understand and preserve the secrets of the world, while simultaenously paying respect to the medium of comic books as a whole. \r\n ",
         run: "Classic"
     },
@@ -194,6 +208,7 @@ let Database = [
         start: "",
         genre: "Magic",
         company: "Marvel",
+        imageID: 15,
         synopsis: "A revolutionary take on the classic green hero, Al Ewing reinvents new and old to tell a cosmic horror story of the origins of the Hulk, his alter egos and the nature of Gamma radiation itself that intertwines friends and foes alike in the grand history of Bruce Banner. \r\n ",
         run: "Ongoing"
     },
@@ -207,6 +222,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 16,
         synopsis: "Gaiman's legendary tale of Dream, who after released from imprisonment for 70 years, seeks to reclaim and understand his old kingdom. \r\n ",
         run: "Classic"
     },
@@ -220,6 +236,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel Comics",
+        imageID: 17,
         synopsis: "",
         run: "Modern"
     },
@@ -233,6 +250,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel Comics",
+        imageID: 18,
         synopsis: "A modern re-introduction of Jack Kirby's Eternals, who have been dormant on Earth for an extended period of time for reasons currently unknown. \r\n ",
         run: "Modern"
     },
@@ -246,6 +264,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Image",
+        imageID: 19,
         synopsis: "An alternate steampunk history of America and seven nations, who reconcile with prophecies foretelling the Apocalypse, further exacerbated by the Four Horsemen, who unwaveringly seek out this goal. \r\n ",
         run: "Modern"
     },
@@ -259,6 +278,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 20,
         synopsis: "A critically acclaimed long running story of the Avengers fighting a multiversal threat that they presently cannot understand, and will push them to the brink of their moral and psychological limits. \r\n",
         run: "Modern"
     },
@@ -272,6 +292,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 21,
         synopsis: "The beyond exceptional new start for the X-Men, spearheaded by visionary Jonathan Hickman. Preceding numerous new X-men titles is this limited series duology that sets the new foundation for the X-men, their homeland of Krakoa, and how it came to be. \r\n ",
         run: "Modern"
     },
@@ -285,6 +306,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 22,
         synopsis: "The mainline title in the Dawn of X initiative, focusing on the politics and development of Krakoa, the mutant nation that seeks legitimacy and respect worldwide. \r\n ",
         run: "Ongoing"
     },
@@ -298,6 +320,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 23,
         synopsis: "nA",
         run: "Classic"
     },
@@ -311,6 +334,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 24,
         synopsis: "nA",
         run: "Modern"
     },
@@ -324,6 +348,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 25,
         synopsis: "A modern reboot involves Aquaman and Mera combatting threats from both outside and within the Kingdom of Atlantis, particularly Arthur's brother, Ocean Master. \r\n ",
         run: "Modern"
     },
@@ -337,6 +362,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 26,
         synopsis: "A brand new introduction and set of foes for the formation of the Justice League and their ongoing battles to protect planet Earth from vicious adversaries. \r\n ",
         run: "Modern"
     },
@@ -350,6 +376,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 27,
         synopsis: "Geoff John's magnum opus in returning Hal Jordan to the DC Universe, while simultaenously expanding and exploring all facets of the cosmic aspects of the Lantern universe. \r\n ",
         run: "Classic"
     },
@@ -363,6 +390,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 28,
         synopsis: "When the Crime Syndicate of Earth-3 invades the Prime Earth, and all the superheroes are incapacitated, it's up to the villains to rise up. \r\n ",
         run: "Modern"
     },
@@ -376,6 +404,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 29,
         synopsis: "When Barry Allen goes back in time to save his mother at the hands of the Reverse Flash, he unexpectedly creates a new alternate reality with new friends and foes. \r\n ",
         run: "Modern"
     },
@@ -389,6 +418,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 30,
         synopsis: "The maxi-series that explains the introduction of the Watchmen characters into the main DC Universe. \r\n ",
         run: "Modern"
     },
@@ -402,6 +432,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 31,
         synopsis: "Tom King brings us a fascinating new take on the White Lantern, Kyle Rayner. Stranded in a estranged solar system with the planets embroiled in a civil war, Rayner must work towards peace while navigating the morally grey, savage characters involved.\r\n ",
         run: "Classic"
     },
@@ -415,6 +446,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 32,
         synopsis: "A radically different take on Dick Grayson, aka Nightwing, who joins Spiral and focuses his efforts on taking down the secret spy organizations of the underground world. \r\n ",
         run: "Modern"
     },
@@ -428,6 +460,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 33,
         synopsis: "When Vision decides to create a family for himself, he becomes wrapped up in the demands of being an Avenger and the expectations of being a father to his family. \r\n",
         run: "Classic"
     },
@@ -441,6 +474,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 34,
         synopsis: "Scott Free becomes unhinged, and is unable to differentiate dream from reality in this absurd tale of war between New Genesis and Apokolips. \r\n\ ",
         run: "Classic"
     },
@@ -454,6 +488,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 35,
         synopsis: "nA",
         run: "Ongoing"
     },
@@ -467,6 +502,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 36,
         synopsis: "nA",
         run: "Ongoing"
     },
@@ -480,6 +516,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 37,
         synopsis: "Batman squares off against Bane in this length series, where Bane seeks to break the Bat both physically and psychologically. \r\n\ ",
         run: "Modern"
     },
@@ -493,6 +530,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 38,
         synopsis: "nA",
         run: "Modern"
     },
@@ -506,6 +544,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 39,
         synopsis: "nA",
         run: "Modern"
     },
@@ -519,6 +558,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Other",
+        imageID: 40,
         synopsis: "Lemire pens a emotional, heartful story about rural Canadians that is heavily inspired by his own childhood. \r\n ",
         run: "Modern"
     },
@@ -532,6 +572,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 41,
         synopsis: "The titular character seeks to find peace and balance between his conflicting personalities in order to be rid of his connection to Konshu. \r\n ",
         run: "Modern"
     },
@@ -545,6 +586,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Image",
+        imageID: 42,
         synopsis: "nA",
         run: "Modern"
     },
@@ -558,6 +600,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Other",
+        imageID: 43,
         synopsis: "",
         run: "Modern"
     },
@@ -571,6 +614,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Image",
+        imageID: 44,
         synopsis: "",
         run: "Modern"
     },
@@ -584,6 +628,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 45,
         synopsis: "",
         run: "Modern"
     },
@@ -597,6 +642,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 46,
         synopsis: "",
         run: "Modern"
     },
@@ -610,6 +656,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 47,
         synopsis: "",
         run: "Classic"
     },
@@ -623,6 +670,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 48,
         synopsis: "",
         run: "Classic"
     },
@@ -636,6 +684,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 49,
         synopsis: "",
         run: "Classic"
     },
@@ -649,6 +698,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 50,
         synopsis: "",
         run: "Classic"
     },
@@ -662,6 +712,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 51,
         synopsis: "",
         run: "Classic"
     },
@@ -675,6 +726,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 52,
         synopsis: "",
         run: "Classic"
     },
@@ -688,6 +740,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 53,
         synopsis: "",
         run: "Classic"
     },
@@ -701,6 +754,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 54,
         synopsis: "",
         run: "Modern"
     },
@@ -714,6 +768,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 55,
         synopsis: "",
         run: "Classic"
     },
@@ -727,6 +782,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 56,
         synopsis: "A deconstructionist take on the Billy Batson / Shazam archetype, where a young boy unlocked the powers of a superhero by uttering a special phrase. Moore takes on a darker.\r\n  ",
         run: "Classic"
     },
@@ -740,6 +796,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 57,
         synopsis: "Moore brings another classic where he introduces the titular character V, who embraces anarchistic ideals to fight against the Totalitarian UK regime in a dystopian semi-futuristic world.\r\n ",
         run: "Classic"
     },
@@ -753,6 +810,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 58,
         synopsis: "",
         run: "Ongoing"
     },
@@ -766,6 +824,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 59,
         synopsis: "With Rebirth returning to their roots, Benjamin Percy unveils the classic joke-quipping Green Arrow / Oliver Queen alongside Black Canary to defend Star City.\r\n ",
         run: "Modern"
     },
@@ -779,6 +838,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 60,
         synopsis: "",
         run: "Classic"
     },
@@ -792,6 +852,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 61,
         synopsis: "The Rebirth run of Deathstroke possesses Priest's complex, non-linear storytelling that makes this run a dedicated read. The reader will explore Slade Wilson's attempts and mistakes to bring his family closer together. While difficult to follow and re-reads are expected, it is an excellent run that deserves your attention and respect.\r\n ",
         run: "Modern"
     },
@@ -805,6 +866,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 62,
         synopsis: "",
         run: "Modern"
     },
@@ -818,6 +880,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 63,
         synopsis: "",
         run: "Modern"
     },
@@ -831,6 +894,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 64,
         synopsis: "",
         run: "Modern"
     },
@@ -844,6 +908,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 65,
         synopsis: "",
         run: "Modern"
     },
@@ -857,6 +922,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 66,
         synopsis: "",
         run: "Modern"
     },
@@ -870,6 +936,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 67,
         synopsis: "",
         run: "Modern"
     },
@@ -883,6 +950,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 68,
         synopsis: "",
         run: "Modern"
     },
@@ -896,6 +964,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 69,
         synopsis: "",
         run: "Modern"
     },
@@ -909,6 +978,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 70,
         synopsis: "Tomasi reboots the Superman series with a classic Clark Kent, who acts as both the hero of Metropolis as well as husband and father to Lois Lane and Jon Kent. This series brings the heartful moments of Superman to the forefront, where he navigates a world that is slightly alien to him, as well as trying his best to raise his son to be the best he can be.\r\n ",
         run: "Modern"
     },
@@ -922,6 +992,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 71,
         synopsis: "",
         run: "Modern"
     },
@@ -935,6 +1006,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 72,
         synopsis: "Tynion focuses on Batman introducing a team of superheroes to combat a multitude of threats that arise from close companions to futuristic threats.\r\n ",
         run: "Modern"
     },
@@ -948,6 +1020,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 73,
         synopsis: "",
         run: "Modern"
     },
@@ -961,6 +1034,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Image",
+        imageID: 74,
         synopsis: "",
         run: "Ongoing"
     },
@@ -973,7 +1047,8 @@ let Database = [
         issues: ["60 issues", "10 volumes"],
         start: "",
         genre: "",
-        company: ["DC Comics"],
+        company: "DC Comics",
+        imageID: 75,
         synopsis: "",
         run: "Classic"
     },
@@ -987,6 +1062,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 76,
         synopsis: "Continuing off his Green Lantern New 52 run, Robert Venditti spearheads the new Green Lantern Rebirth series focusing on Hal Jordan and his close allies, John Stewart, Guy Gardner and Kyle Rayner. The Rebirth series returns to their roots with the rise of Sinestro and the Yellow Lanterns, the Dominators and other threats.\r\n ",
         run: "Modern"
     },
@@ -1000,6 +1076,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 77,
         synopsis: "",
         run: "Classic"
     },
@@ -1013,6 +1090,7 @@ let Database = [
         start: "",
         genre: "",
         company: "DC Comics",
+        imageID: 78,
         synopsis: "",
         run: "Modern"
     },
@@ -1026,6 +1104,7 @@ let Database = [
         start: "",
         genre: "",
         company: "Marvel",
+        imageID: 79,
         synopsis: "While in a weakened state, Matt Murdock as Daredevil mistakenly kills a criminal one evening. In doing so, he must come to terms with the idea and impact that the both the superhero and the idea of Daredevil has on the community of Hell's Kitchen. Embroiled in that internal debate are longtime enemies of Daredevil, as well as new corporate CEO's hoping to takeover.\r\n ",
         run: "Ongoing"
     },

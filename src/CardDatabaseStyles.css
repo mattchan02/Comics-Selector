@@ -4,6 +4,13 @@
   width: 60%;
 }
 
+.render-image {
+  height: 320px;
+  width: 220px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .left-image {
   border-right: 2px solid black;
   width: 180px;

@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import CardDatabaseStyles from './CardDatabaseStyles.css'
+import Photo from './ImageFiles/Aquaman New 52.jpg'
 
 function CardDatabase(props) {
   return (
     <table class="RenderCard">
       <tr>
         <td class="left-image">
-        Image Placeholder
+        <img class="render-image" src={Photo} />
         </td>
 
         <td>
