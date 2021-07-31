@@ -13,6 +13,7 @@ import ThirdQuestionRunStyles from './ThirdQuestionRunStyles.css'
 import FourthSummary from './FourthSummary.js'
 import Database from "./Database.js"
 import RestartButton from "./RestartButton.js"
+import Images from "./ImageDatabase.js"
 
 class ChoiceBar extends React.Component {
   constructor(props) {
@@ -306,6 +307,7 @@ class ChoiceBar extends React.Component {
                             artist={Database.artist[0]}
                             length={Database.length}
                             synopsis={Database.synopsis}
+                            imageID={Database.imageID}
                           />
                           <br></br>
                           </div>
@@ -323,6 +325,7 @@ class ChoiceBar extends React.Component {
                             artist={Database.artist[0]}
                             length={Database.length}
                             synopsis={Database.synopsis}
+                            imageID={Database.imageID}
                           />
                           <br></br>
                           </div>
@@ -340,14 +343,15 @@ class ChoiceBar extends React.Component {
                             artist={Database.artist[0]}
                             length={Database.length}
                             synopsis={Database.synopsis}
+                            imageID={Database.imageID}
                           />
                           <br></br>
                           </div>
                         : null
                       }
                     </div>)}
-                </div>
-                <br></br>
+                    </div>
+                    <br></br>
 
               {this.state.handleFirstQuestion
                 ? <FirstQuestionBox
