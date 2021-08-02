@@ -5,10 +5,9 @@ import NavbarStyles from "./NavbarStyles.css"
 function Navbar() {
   return (
     <div class="topnav">
-      <a href="#home">Home</a>
-      <a href="#news">About</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">Random</a>
+      <a href="#Home">Home</a>
+      <a href="#Terminology">About</a>
+      <a href="#Q&A">Contact</a>
     </div>
   )
 }
