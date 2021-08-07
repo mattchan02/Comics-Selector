@@ -6,8 +6,7 @@ function Navbar() {
   return (
     <div class="topnav">
       <a href="#Home">Home</a>
-      <a href="#Terminology">About</a>
-      <a href="#Q&A">Contact</a>
+      <a href="#Q&A">Q&A</a>
     </div>
   )
 }

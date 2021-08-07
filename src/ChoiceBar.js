@@ -278,7 +278,7 @@ class ChoiceBar extends React.Component {
       <div>
         <center>
             <div>
-              <h2> Comic Book Recommendation </h2>
+              <h1> Comic Book Recommendation </h1>
                 <div
                   style={{
                     display: !this.state.handleStartingInfo
@@ -286,8 +286,8 @@ class ChoiceBar extends React.Component {
                       : "block"
                         }}
                       >
-                  <h4> Want something to read? <br></br> </h4>
-                  <p> Try something from Matthew's curated list </p>
+                  <h2> Want something to read? <br></br> </h2>
+                  <p class="ChoiceBarIntro"> Try something from Matthew's curated list </p>
                     <button
                       onClick={this.handleFirstQuestion}
                       >
