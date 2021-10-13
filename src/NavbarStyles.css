@@ -21,3 +21,10 @@
   background-color: #4CAF50;
   color: white;
 }
+
+.qnaPage {
+  display: float;
+  margin-left: auto;
+  margin-right: auto;
+
+}

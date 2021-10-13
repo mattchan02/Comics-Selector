@@ -1,12 +1,21 @@
 import React from "react"
+<<<<<<< Updated upstream
 import ReactDOM from "react-dom"
 import NavbarStyles from "./NavbarStyles.css"
+=======
+import ReactDOM from 'react-dom'
+import NavbarStyles from './CSSFiles/NavbarStyles.css'
+>>>>>>> Stashed changes
 
 function Navbar() {
+
+  const refreshPage = () =>  {
+    window.location.reload();
+  };
+
   return (
     <div class="topnav">
-      <a href="#Home">Home</a>
-      <a href="#Q&A">Q&A</a>
+      <a onClick={refreshPage}>Refresh</a>
     </div>
   )
 }

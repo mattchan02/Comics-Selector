@@ -1,8 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+<<<<<<< Updated upstream
 import CardDatabaseStyles from './CardDatabaseStyles.css'
 import Images from './ImageDatabase.js'
 import Database from './Database.js'
+=======
+import CardDatabaseStyles from './CSSFiles/CardDatabaseStyles.css'
+>>>>>>> Stashed changes
 
 function CardDatabase(props) {
   return (
@@ -10,7 +14,7 @@ function CardDatabase(props) {
       <tr>
         <td class="left-image">
 
-        <img class="render-image" src={Images[props.imageID]} />
+        <img class="render-image" />
 
         </td>
 
@@ -20,7 +24,7 @@ function CardDatabase(props) {
               <b>Title:</b><br></br> {props.title} <br></br>
             </tr>
             <tr class="right-writer">
-              <br></br><b>Writer:</b><br></br> {props.writer} <br></br>
+              <br></br><b>Writer:</b><br></br> {this.state.writerf} {this.state.writerl}<br></br>
             </tr>
             {props.artist !== "Various"
               ? <tr class="right-artist">

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React from 'react'
 import ReactDOM from 'react-dom'
 
@@ -1489,3 +1490,5 @@ let Database = [
 ];
 
 export default Database
+=======
+>>>>>>> Stashed changes
