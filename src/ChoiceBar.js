@@ -1,32 +1,13 @@
-<<<<<<< Updated upstream
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
-import ChoiceBarStyles from './ChoiceBarStyles.css'
-import CardQuestion from "./CardQuestion.js"
-import CardDatabase from "./CardDatabase.js"
-import HoldbarBox from "./HoldbarBox.js"
-import HoldbarBoxStyles from './HoldbarBoxStyles.css'
-import SecondQuestionCharacter from './SecondQuestionCharacter.js'
-import SecondQuestionCompany from './SecondQuestionCompany.js'
-import SecondQuestionWriter from './SecondQuestionWriter.js'
-import ThirdQuestionRun from './ThirdQuestionRun.js'
-import ThirdQuestionRunStyles from './ThirdQuestionRunStyles.css'
-=======
-import React from 'react'
-import axios from 'axios'
 import ChoiceBarStyles from './CSSFiles/ChoiceBarStyles.css'
 import CardQuestion from "./CardQuestion.js"
 import CardDatabase from "./CardDatabase.js"
->>>>>>> Stashed changes
-import FourthSummary from './FourthSummary.js'
-import RestartButton from "./RestartButton.js"
-<<<<<<< Updated upstream
-import Images from "./ImageDatabase.js"
-=======
-import SecondQuestionWriter from './SecondQuestionWriter.js'
 import SecondQuestionCharacter from './SecondQuestionCharacter.js'
+import SecondQuestionWriter from './SecondQuestionWriter.js'
 import ThirdAppearanceQuestion from './ThirdAppearanceQuestion.js'
->>>>>>> Stashed changes
+import FourthSummary from './FourthSummary.js'
+import axios from 'axios'
 
 class ChoiceBar extends React.Component {
   constructor(props) {

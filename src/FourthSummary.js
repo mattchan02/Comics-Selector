@@ -1,7 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import ChoiceBar from "./ChoiceBar"
-import Database from "./Database.js"
 
 class FourthSummary extends React.Component {
   constructor() {
@@ -26,7 +25,7 @@ class FourthSummary extends React.Component {
         </button>
         <br></br>
       </div>
-        
+
     )
   }
 }

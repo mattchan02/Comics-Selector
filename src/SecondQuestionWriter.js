@@ -1,12 +1,7 @@
-<<<<<<< Updated upstream
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
-import SecondQuestionWriterStyles from './SecondQuestionWriterStyles.css'
+import SecondQuestionWriterStyles from './CSSFiles/SecondQuestionWriterStyles.css'
 import CardQuestion from './CardQuestion.js'
-=======
-import React from 'react'
-import ReactDOM from 'react-dom'
->>>>>>> Stashed changes
 
 class SecondQuestionWriter extends React.Component {
   constructor() {

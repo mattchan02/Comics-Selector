@@ -1,12 +1,6 @@
-<<<<<<< Updated upstream
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
-import SecondQuestionCharacterStyles from "./SecondQuestionCharacterStyles.css"
-import ThirdQuestionRun from "./ThirdQuestionRun.js"
-=======
-import React from 'react'
-import ReactDOM from 'react-dom'
->>>>>>> Stashed changes
+import SecondQuestionCharacterStyles from "./CSSFiles/SecondQuestionCharacterStyles.css"
 
 class SecondQuestionCharacter extends React.Component {
   constructor() {

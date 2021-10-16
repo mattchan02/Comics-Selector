@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import CardQuestionStyles from "./CardQuestionStyles.css"
+import CardQuestionStyles from "./CSSFiles/CardQuestionStyles.css"
 
 function CardQuestion(props) {
   return (

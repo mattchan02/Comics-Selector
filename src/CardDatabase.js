@@ -1,12 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-<<<<<<< Updated upstream
-import CardDatabaseStyles from './CardDatabaseStyles.css'
-import Images from './ImageDatabase.js'
-import Database from './Database.js'
-=======
 import CardDatabaseStyles from './CSSFiles/CardDatabaseStyles.css'
->>>>>>> Stashed changes
 
 function CardDatabase(props) {
   return (
